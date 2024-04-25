@@ -26,5 +26,8 @@ public class dataType04 {
         String sc="Hello world";
         String sd="Hello world";
         System.out.println(sc==sd); // true
+        //test1和test2都是String类型的对象，它们的值都是"This is a test"，
+        // 由于Java中的字符串常量池特性，相同的字符串常量在内存中只会有一个实例，
+        // 因此test1和test2都指向字符串常量池中的同一块地址，所以test1 == test2会返回true
     }
 }
