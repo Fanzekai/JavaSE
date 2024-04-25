@@ -29,5 +29,9 @@ public class dataType04 {
         //test1和test2都是String类型的对象，它们的值都是"This is a test"，
         // 由于Java中的字符串常量池特性，相同的字符串常量在内存中只会有一个实例，
         // 因此test1和test2都指向字符串常量池中的同一块地址，所以test1 == test2会返回true
+
+        System.out.println(1 +2+ "aa" +3);//1 + 2得到结果3,然后将3转换为字符串,并与后面的"aa"拼接得到"3aa"
+        System.out.println(1+ "aa" +3+1);//1是一个整数，转换为字符串后与后面的"aa"拼接得到"1aa",然后再将"1aa"与3拼接得到"1aa3"
+
     }
 }
