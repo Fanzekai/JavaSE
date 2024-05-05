@@ -34,5 +34,7 @@ public class dataType06 {
 // int num = 100L;
 // System.out.println(num);//报错：从long转换到int可能会有损失
 
+
+
     }
 }

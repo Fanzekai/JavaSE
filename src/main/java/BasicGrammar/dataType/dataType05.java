@@ -40,5 +40,16 @@ public class dataType05 {
         float num3 = 30L;
         System.out.println(num3);// 30.0
 
+//使用double类型计算得到的圆的面积比使用float类型计算得到的要更精确
+        float radius1 = 1.23456789f;
+        float area1 = (float) (Math.PI * radius1 * radius1);
+        System.out.println("圆的面积（使用 float）: " + area1);
+
+
+        double radius = 1.23456789;
+        double area = Math.PI * radius * radius;
+        System.out.println("圆的面积（使用 double）: " + area);
+
+
     }
 }
